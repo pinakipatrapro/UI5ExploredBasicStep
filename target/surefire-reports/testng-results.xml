@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="com.org.UI5ExploredBasicStep.NavigateTest" duration-ms="23482" started-at="2018-06-05T02:51:03Z" finished-at="2018-06-05T02:51:27Z">
+  <suite name="com.org.UI5ExploredBasicStep.NavigateTest" duration-ms="43299" started-at="2018-06-05T04:16:44Z" finished-at="2018-06-05T04:17:27Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="23482" started-at="2018-06-05T02:51:03Z" finished-at="2018-06-05T02:51:27Z">
+    <test name="Command line test" duration-ms="43299" started-at="2018-06-05T04:16:44Z" finished-at="2018-06-05T04:17:27Z">
       <class name="com.org.UI5ExploredBasicStep.NavigateTest">
-        <test-method status="PASS" signature="navigateToPage()[pri:0, instance:com.org.UI5ExploredBasicStep.NavigateTest@7f690630]" name="navigateToPage" duration-ms="23441" started-at="2018-06-05T02:51:04Z" finished-at="2018-06-05T02:51:27Z">
+        <test-method status="PASS" signature="navigateToFragmentSearch()[pri:0, instance:com.org.UI5ExploredBasicStep.NavigateTest@3498ed]" name="navigateToFragmentSearch" duration-ms="24076" started-at="2018-06-05T04:16:44Z" finished-at="2018-06-05T04:17:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToPage -->
+        </test-method> <!-- navigateToFragmentSearch -->
+        <test-method status="PASS" signature="navigateToMVCSearch()[pri:0, instance:com.org.UI5ExploredBasicStep.NavigateTest@3498ed]" name="navigateToMVCSearch" duration-ms="19132" started-at="2018-06-05T04:17:08Z" finished-at="2018-06-05T04:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMVCSearch -->
       </class> <!-- com.org.UI5ExploredBasicStep.NavigateTest -->
     </test> <!-- Command line test -->
   </suite> <!-- com.org.UI5ExploredBasicStep.NavigateTest -->

@@ -18,7 +18,7 @@ public class NavigateTest {
 		return eh;
 	}
 	@Test
-	public void navigateToPage() {
+	public void navigateToFragmentSearch() {
 		//Load Drivers
 		LoadDrivers drivers = new LoadDrivers();
 		WebDriver wd = drivers.openUrl("https://sapui5.hana.ondemand.com");
@@ -27,7 +27,30 @@ public class NavigateTest {
 		String Path = "//*[@id='sdk---searchPage--allList-listUl']/descendant::a[contains(.,'Creating Custom Filter')]";
 		eh.getElementByXpath(Path,wd).click();
 
-		wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		wd.close();
+	}
+	@Test
+	public void navigateToMVCSearch() {
+		//Load Drivers
+		LoadDrivers drivers = new LoadDrivers();
+		WebDriver wd = drivers.openUrl("https://sapui5.hana.ondemand.com");
+		ElementHelper eh = this.search("mvc", wd);
+
+		String Path = "//*[@id='sdk---searchPage--allList-listUl']/descendant::a[contains(.,'Application Cache Buster')]";
+		eh.getElementByXpath(Path,wd).click();
+
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		
 		wd.close();
 	}
 }

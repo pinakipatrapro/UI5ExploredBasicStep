@@ -5,7 +5,7 @@
     <classes>
       <class name="com.org.UI5ExploredBasicStep.NavigateTest">
         <methods>
-          <include name="navigateToPage"/>
+          <include name="navigateToFragmentSearch"/>
         </methods>
       </class> <!-- com.org.UI5ExploredBasicStep.NavigateTest -->
     </classes>
