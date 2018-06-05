@@ -8,26 +8,26 @@ import com.org.UI5ExploredBasicStep.util.LoadDrivers;
 import com.org.UI5ExploredBasicStep.util.ElementHelper;
 
 public class NavigateTest {
+
+	public ElementHelper search(String searchString,WebDriver wd) {
+		//Load Element Helper
+		ElementHelper eh = new ElementHelper();
+		eh.getElementById("sdk---app--searchControl-openingBtn-img", wd).click();
+		eh.getElementById("sdk---app--searchControl-searchField-I", wd).sendKeys(searchString);
+		eh.getElementById("sdk---app--searchControl-searchField-search", wd).click();
+		return eh;
+	}
 	@Test
 	public void navigateToPage() {
 		//Load Drivers
 		LoadDrivers drivers = new LoadDrivers();
 		WebDriver wd = drivers.openUrl("https://sapui5.hana.ondemand.com");
-		//Load Element Helper
-		ElementHelper eh = new ElementHelper();
-		eh.getElementById("sdk---app--searchControl-openingBtn-img", wd).click();
-		eh.getElementById("sdk---app--searchControl-searchField-I", wd).sendKeys("Fragment");
-		eh.getElementById("sdk---app--searchControl-searchField-search", wd).click();
-		
+		ElementHelper eh = this.search("Fragment", wd);
+
 		String Path = "//*[@id='sdk---searchPage--allList-listUl']/descendant::a[contains(.,'Creating Custom Filter')]";
 		eh.getElementByXpath(Path,wd).click();
-		try {
-			Thread.sleep(3000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		wd.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+		wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		wd.close();
 	}
 }
