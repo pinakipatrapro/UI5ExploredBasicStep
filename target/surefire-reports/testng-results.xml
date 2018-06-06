@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="10649" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:28Z">
+  <suite name="Command line suite" duration-ms="9853" started-at="2018-06-06T03:37:09Z" finished-at="2018-06-06T03:37:19Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="10649" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:28Z">
+    <test name="Command line test" duration-ms="9853" started-at="2018-06-06T03:37:09Z" finished-at="2018-06-06T03:37:19Z">
       <class name="com.org.UI5ExploredBasicStep.CreateTest">
-        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="navToCreateCredPage" duration-ms="249" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:17Z">
+        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="navToCreateCredPage" duration-ms="268" started-at="2018-06-06T03:37:09Z" finished-at="2018-06-06T03:37:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navToCreateCredPage -->
-        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="fillData" duration-ms="1771" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:19Z">
+        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="fillData" duration-ms="1335" started-at="2018-06-06T03:37:10Z" finished-at="2018-06-06T03:37:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fillData -->
-        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="resetFilledData" duration-ms="188" started-at="2018-06-06T03:32:19Z" finished-at="2018-06-06T03:32:19Z">
+        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="resetFilledData" duration-ms="176" started-at="2018-06-06T03:37:11Z" finished-at="2018-06-06T03:37:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetFilledData -->
-        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="saveData" duration-ms="4060" started-at="2018-06-06T03:32:19Z" finished-at="2018-06-06T03:32:23Z">
+        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="saveData" duration-ms="3893" started-at="2018-06-06T03:37:11Z" finished-at="2018-06-06T03:37:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- saveData -->
-        <test-method status="PASS" signature="closeTab()[pri:99999, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="closeTab" duration-ms="4343" started-at="2018-06-06T03:32:23Z" finished-at="2018-06-06T03:32:28Z">
+        <test-method status="PASS" signature="closeTab()[pri:99999, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="closeTab" duration-ms="4132" started-at="2018-06-06T03:37:15Z" finished-at="2018-06-06T03:37:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTab -->
