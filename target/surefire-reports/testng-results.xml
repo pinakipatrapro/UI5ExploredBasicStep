@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="com.org.UI5ExploredBasicStep.NavigateTest" duration-ms="61673" started-at="2018-06-05T05:04:20Z" finished-at="2018-06-05T05:05:22Z">
+  <suite name="Command line suite" duration-ms="10649" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:28Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="61673" started-at="2018-06-05T05:04:20Z" finished-at="2018-06-05T05:05:22Z">
-      <class name="com.org.UI5ExploredBasicStep.NavigateTest">
-        <test-method status="PASS" signature="navigateToFragmentSearch()[pri:0, instance:com.org.UI5ExploredBasicStep.NavigateTest@3498ed]" name="navigateToFragmentSearch" duration-ms="33958" started-at="2018-06-05T05:04:20Z" finished-at="2018-06-05T05:04:54Z">
+    <test name="Command line test" duration-ms="10649" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:28Z">
+      <class name="com.org.UI5ExploredBasicStep.CreateTest">
+        <test-method status="PASS" signature="navToCreateCredPage()[pri:1, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="navToCreateCredPage" duration-ms="249" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToFragmentSearch -->
-        <test-method status="PASS" signature="navigateToMVCSearch()[pri:0, instance:com.org.UI5ExploredBasicStep.NavigateTest@3498ed]" name="navigateToMVCSearch" duration-ms="27607" started-at="2018-06-05T05:04:54Z" finished-at="2018-06-05T05:05:22Z">
+        </test-method> <!-- navToCreateCredPage -->
+        <test-method status="PASS" signature="fillData()[pri:2, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="fillData" duration-ms="1771" started-at="2018-06-06T03:32:17Z" finished-at="2018-06-06T03:32:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigateToMVCSearch -->
-      </class> <!-- com.org.UI5ExploredBasicStep.NavigateTest -->
+        </test-method> <!-- fillData -->
+        <test-method status="PASS" signature="resetFilledData()[pri:3, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="resetFilledData" duration-ms="188" started-at="2018-06-06T03:32:19Z" finished-at="2018-06-06T03:32:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetFilledData -->
+        <test-method status="PASS" signature="saveData()[pri:4, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="saveData" duration-ms="4060" started-at="2018-06-06T03:32:19Z" finished-at="2018-06-06T03:32:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveData -->
+        <test-method status="PASS" signature="closeTab()[pri:99999, instance:com.org.UI5ExploredBasicStep.CreateTest@1a942c18]" name="closeTab" duration-ms="4343" started-at="2018-06-06T03:32:23Z" finished-at="2018-06-06T03:32:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTab -->
+      </class> <!-- com.org.UI5ExploredBasicStep.CreateTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- com.org.UI5ExploredBasicStep.NavigateTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>
